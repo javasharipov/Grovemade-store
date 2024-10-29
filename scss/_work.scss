@@ -1,0 +1,34 @@
+.work__content{
+	h2{
+		font-size: 43px;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 38px;
+	}
+	p{
+		color: #A0A0A0;
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 23px;
+		margin-bottom: 26px;
+		text-align: center;
+	}
+}
+.work__wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+@media (max-width:650px){
+	.work__content{
+		h2{
+			font-size: 30px;
+		}
+		p{
+			font-size: 13px;
+		}
+	}
+}
